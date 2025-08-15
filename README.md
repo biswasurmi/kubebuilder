@@ -113,7 +113,7 @@ Example for our `Guestbook` CR:
 1. **User applies a CR**:
    ```bash
    kubectl apply -f guestbook.yaml
-````
+```
 
 2. **API Server stores it** in etcd and notifies watchers.
 3. **Manager’s cache** gets the event → Controller sees a change.
