@@ -1,0 +1,16 @@
+apiVersion: webapp.my.domain/v1
+kind: Guestbook
+metadata:
+  labels:
+    app.kubernetes.io/name: guestbook
+    app.kubernetes.io/managed-by: kustomize
+  name: guestbook-sample
+  namespace: default
+spec:
+  size: 3
+  configMapName: "guestbook-config"
+  type: "Address"
+  image: urmibiswas/book_project:v3
+  jwtSecretName: jwt-secret
+  port: 9090
+  auth: true
