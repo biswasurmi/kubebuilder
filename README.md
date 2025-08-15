@@ -1,4 +1,4 @@
-```
+---
 # 📖 Guestbook Operator
 
 ![Go](https://img.shields.io/badge/Go-1.20+-00ADD8?logo=go&logoColor=white)
