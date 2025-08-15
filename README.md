@@ -1,11 +1,4 @@
-Got it —
-I’ll make the **Architecture** section more detailed, beginner-friendly, and visual, so someone new to Kubebuilder can actually *understand* what’s going on, not just see a list of components.
-
-Here’s the **improved README** with a **rich, educational Kubebuilder architecture explanation**:
-
----
-
-```markdown
+```
 # 📖 Guestbook Operator
 
 ![Go](https://img.shields.io/badge/Go-1.20+-00ADD8?logo=go&logoColor=white)
@@ -268,6 +261,6 @@ make run
 ```bash
 go test ./internal/webhook/v1/... -v
 ```
-```
+
 
 
